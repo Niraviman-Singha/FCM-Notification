@@ -7,14 +7,15 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-   <TextView
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content"
-       android:id="@+id/textView"
-       android:text="Firebase Cloud Messaging"
-       android:textSize="24sp"
-       android:textColor="@color/black">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Firebase Cloud Messaging"
+        android:textColor="@color/black"
+        android:textSize="24sp">
 
-   </TextView>
+    </TextView>
 
 </LinearLayout>
